@@ -13,7 +13,7 @@ PawHearts é um sistema de adoção de animais desenvolvido com Spring Boot no b
 
 ### Back-end
 
-1. Navegue até a pasta `backend`:
+1. Navegue até a pasta `backend/PawHeartsBack`:
     ```bash
     cd backend
     ```
