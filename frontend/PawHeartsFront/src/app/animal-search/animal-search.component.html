@@ -1,17 +1,1 @@
-<div class="animal-search-container">
-    <h2>Pesquisar Animais</h2>
-    <input type="text" [(ngModel)]="searchTerm" placeholder="Digite o nome ou espécie">
-    <button (click)="onSearch()">Pesquisar</button>
-  
-    <div *ngIf="animals.length > 0" class="results">
-      <h3>Resultados da Pesquisa:</h3>
-      <ul>
-        <li *ngFor="let animal of animals">
-          <strong>Nome:</strong> {{animal.name}} <br>
-          <strong>Espécie:</strong> {{animal.species}} <br>
-          <strong>Idade:</strong> {{animal.age}} <br>
-          <strong>Descrição:</strong> {{animal.description}}
-        </li>
-      </ul>
-    </div>
-  </div>  
+<input type="text" [(ngModel)]="searchTerm" placeholder="Digite o nome ou espécie">

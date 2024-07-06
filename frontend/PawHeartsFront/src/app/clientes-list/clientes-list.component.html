@@ -1,0 +1,7 @@
+<h2>Lista de Clientes</h2>
+<ul>
+  <li *ngFor="let cliente of clientes">
+    {{ cliente.usuario }}
+    <button (click)="deleteCliente(cliente.id)">Excluir</button>
+  </li>
+</ul>

@@ -1,0 +1,6 @@
+<!-- src/app/cliente-update/cliente-update.component.html -->
+<form (ngSubmit)="updateCliente()">
+  <input [(ngModel)]="cliente.usuario" name="usuario" placeholder="Usuário">
+  <input [(ngModel)]="cliente.senha" name="senha" type="password" placeholder="Senha">
+  <button type="submit">Atualizar Cliente</button>
+</form>

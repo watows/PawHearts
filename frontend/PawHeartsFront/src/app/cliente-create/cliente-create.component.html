@@ -1,0 +1,5 @@
+<form (ngSubmit)="createCliente()">
+  <input [(ngModel)]="cliente.usuario" name="usuario" placeholder="Usuário">
+  <input [(ngModel)]="cliente.senha" name="senha" type="password" placeholder="Senha">
+  <button type="submit">Criar Cliente</button>
+</form>
