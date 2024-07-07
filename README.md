@@ -2,6 +2,11 @@
 
 PawHearts é um sistema de adoção de animais desenvolvido com Spring Boot no back-end e Angular no front-end.
 
+## Integrantes
+
+Alexandre Salgado
+Nathalya Melchert
+
 ## Pré-requisitos
 
 - [Java 11+](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html)
